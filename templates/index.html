@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bluefield test</title>
+</head>
+<body>
+    <form action="/create" method="post">
+        <input type="text" name="origURL" placeholder="original URL"/><br/>
+        <p style="display: inline-block">http://{{.Addr}}/</p>
+        <input type="text" name="shortURL" placeholder="custom URL (optional)"/><br/>
+        <input type="submit" name="submit" value="Submit"/>
+    </form>
+</body>
+</html>

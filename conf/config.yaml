@@ -1,0 +1,5 @@
+service:
+  "host": "localhost"
+  "port": "8080"
+  "RandLinkLen": 8  # string length for random link generator
+  "dataLifetime": 60  # lifetime in seconds for data in requests table
